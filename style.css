@@ -1,0 +1,87 @@
+body{
+	font: 15px sans, sans-serif;
+	
+	background-image: url(trees.png);
+	color: black;
+	/*header*/
+}
+.container {
+	width: 800px;
+	margin: auto;
+
+	/*background header*/
+}
+
+.header{
+	padding: 20px;
+	padding-bottom: 10px;
+	background-image: url(artboard_1.png);
+	background-size: 100%;
+}
+
+.header .judul {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+
+
+
+
+.header ul li {
+		display: inline-block;
+	margin-top: 20PX;
+	margin-right: 10PX;
+
+}
+
+.header a{
+	text-decoration: none;
+	color: #ADD8E6;
+	padding:3PX;
+}
+.header a:hover {
+	color: 	#E6E6FA;
+	/*warna hover*/
+}
+.hero {
+	height: 800px;
+	background-image: url(c:sabun.jpg);
+	background-size: cover;
+	background-position: 0 0px;
+	border-top: 10px solid salmon;
+	border-bottom: 5px solid salmon;
+	/*hero image*/
+	}
+
+.CONTENT{
+	width: 800px;
+	margin: 0px;
+	padding: 10px;
+}
+.content h2{
+	font-size:5px;
+	font-weight: bold;
+}
+.content .penulis{
+	font-size:11px;
+	margin-top: -5px;
+}
+
+.content p{
+	margin-bottom: 20px;
+	font-size: 14px;
+
+}
+
+.footer{
+	background-color: none;
+	padding: 5px;
+}
+.footer .copy{
+	color:black;
+	text-align: center;
+	font-size: 12px;
+}
+
+
